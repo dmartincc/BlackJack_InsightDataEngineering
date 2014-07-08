@@ -13,9 +13,8 @@ The player starts with 100 chips and must bet at least 1 chip each hand.
 
 If you want to play the Black Jack program just fork this repository and run the following command:
 
-`cd BlackJack_InsightDataEngineering`
-
-`python main.py`
+`cd BlackJack_InsightDataEngineering                                    `
+`python main.py                                                         `
 
 and follow the intructions given by the program.
 
