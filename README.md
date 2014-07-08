@@ -15,7 +15,8 @@ If you want to play the Black Jack program just fork this repository and run the
 
 <code>
 cd BlackJack_InsightDataEngineering  
-
+</code>  
+<code>
 python main.py           
 </code>                                              
 
