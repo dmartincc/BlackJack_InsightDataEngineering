@@ -132,7 +132,7 @@ def blackJackGame():
 
 		    while True:
 		        dealerPoints = countPoints(dealer)                
-		        if dealerPoints < 18:
+		        if dealerPoints < 17:
 		            dealer.append(shuffle(cards))
 		        else:
 		            break
