@@ -31,7 +31,7 @@ def introHeader():
 
 def newGameHeader(games):
 	print
-	print " ---------------------------------- GAME %d -----------------------------------"% (games)
+	print " ---------------------------------- HAND #%d -----------------------------------"% (games)
 
 def gameOverHeader():
 	print
@@ -52,7 +52,7 @@ def countPoints(hand):
 
 def stats(games,playerWin,dealerWin,playerLose,dealerLose,playerChips):
 	print 
-	print " ----------------------------- STATS after %d games ---------------------------"% (games)
+	print " ----------------------------- STATS after %d hands ---------------------------"% (games)
 	print
 	print "                  Player %  Dealer %"
 	print " Wins   -            %d        %d" % (playerWin*100/games, dealerWin*100/games)	
