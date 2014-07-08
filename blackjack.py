@@ -82,7 +82,6 @@ def blackJackGame():
 		player.append(shuffle(cards))
 		
 		dealer.append(shuffle(cards))
-
 		
 		if playerChips == 0:
 			print " You have run out of chips. More luck next time!"
@@ -172,7 +171,6 @@ def blackJackGame():
 		            dealerWin += 1
 		            dealerLose += 1
 		    break  
-
 		 
 		stats(games,playerWin,dealerWin,playerLose,dealerLose,playerChips)
 		games += 1
